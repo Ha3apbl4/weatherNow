@@ -34,7 +34,7 @@ function showCard({ temp, conditions, humidity, wind, weather_icon }) {
 				<div class="humidity__item">
 					<img
 						class="humidity__icon"
-						src="/img/humidity-svgrepo-com.svg"
+						src="img/humidity-svgrepo-com.svg"
 						alt=""
 					/>
 					<div class="humidity__item-info">
@@ -43,7 +43,7 @@ function showCard({ temp, conditions, humidity, wind, weather_icon }) {
 					</div>
 				</div>
 				<div class="wind__item">
-					<img class="wind__icon" src="/img/wind-svgrepo-com.svg" alt="" />
+					<img class="wind__icon" src="img/wind-svgrepo-com.svg" alt="" />
 					<div class="wind__item-info">
 						<p class="wind__number weather__num">${wind}<sup>Km/H</sup></p>
 						<p class="wind__text weather__text">Wind Speed</p>
