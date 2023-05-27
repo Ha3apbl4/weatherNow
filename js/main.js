@@ -56,7 +56,7 @@ function showCard({ temp, conditions, humidity, wind, weather_icon }) {
 }
 
 async function getWeather(city) {
-	const URL = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}`
+	const URL = `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}`
 
 	const response = await fetch(URL)
 	const data = await response.json()
