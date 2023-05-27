@@ -78,7 +78,7 @@ FORM.onsubmit = async function (e) {
 		removeCard()
 		removeError()
 
-		const FILE_PATH = '/img/weather-icons/'
+		const FILE_PATH = 'img/weather-icons/'
 		const WEATHER_NAME = data.current.condition.text + '.svg'
 		const ICON_PATH = FILE_PATH + WEATHER_NAME
 		console.log(ICON_PATH)
